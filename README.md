@@ -14,6 +14,11 @@ Front End - React and React Router
 Back End - Node
 
 ## Viewing The Project
+The easiest way to view the project is the one hosted on Glitch:
+
+https://blockchain-address.glitch.me/
+
+### To view on your own environment:
 Because the Blockchain API does not allow CORS, the node server acts as a CORS proxy. 
 
 To run the server:

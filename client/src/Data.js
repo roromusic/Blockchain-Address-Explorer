@@ -69,7 +69,7 @@ class Data extends Component {
 
   async fetchAccount(page) {
     try {
-      //const url = `https://cors-anywhere.herokuapp.com/https://blockchain.info/rawaddr/${this.props.match.params.id}?limit=50&offset=${(this.state.page - 1) * 50}`;
+      //const url = `https://corsproxy.glitch.me/https://blockchain.info/rawaddr/${this.props.match.params.id}?limit=50&offset=${(this.state.page - 1) * 50}`;
       const url = `http://localhost:8080/https://blockchain.info/rawaddr/${this.props.match.params.id}?limit=50&offset=${page || (this.state.page - 1) * 50}`;
       const response = await fetch(url);
       const data = await response.json();

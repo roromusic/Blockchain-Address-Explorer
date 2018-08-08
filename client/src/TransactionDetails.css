@@ -1,0 +1,42 @@
+.transaction_details {
+  margin-bottom: 15px;
+  background-color: #282828;
+  padding: 0 20px 20px 20px;
+}
+
+.transaction_IO {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.transaction_IO-list {
+  margin-bottom: 20px;
+}
+
+.transaction_outputs, .transaction_inputs {
+  flex: 1;
+}
+
+.transaction_IO-item {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.transaction_IO-value {
+  margin-left: 40px;
+}
+.transaction_table {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-gap: 5px;
+}
+
+.transaction_table dt {
+  grid-column: 1;
+}
+
+.transaction_table dd {
+  grid-column: 2;
+  padding-left: 20px;
+}

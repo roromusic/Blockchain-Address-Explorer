@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #0E0E0E;
+}
+
+.layout {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+li {
+  list-style: none;
+}
+
+h3 {
+  margin: 20px 0;
+}
+
+@media only screen and (max-width: 425px) {
+  body {
+    font-size: 0.9em;
+  }
+}

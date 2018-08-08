@@ -1,0 +1,28 @@
+.transaction {
+  list-style: none;
+}
+
+.transaction_item {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.transaction_item:hover {
+  background-color: #282828;
+}
+
+.transaction_date {
+  flex: 1;
+}
+
+.transaction_id {
+  flex: 1;
+}
+
+.transaction_sum {
+  flex: 1 0;
+  text-align: right;
+}

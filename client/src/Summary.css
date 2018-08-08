@@ -1,0 +1,41 @@
+.summary_table {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-gap: 5px;
+  margin: 1em;
+  line-height: 1.4;
+}
+
+.summary_table dt {
+  grid-column: 1;
+  font-weight: bold;
+}
+
+.summary_table dd {
+  grid-column: 2;
+  margin-left: 40px;
+  overflow: hidden;
+}
+
+.currency {
+  height: 42px;
+  padding-top: 5px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.currency_switch {
+  width: 40px;
+  height: 20px;
+  margin: 0px 10px;
+  background-color: black;
+  cursor: pointer;
+}
+
+.currency_selection {
+  height: 100%;
+  width: 25px;
+  background-color: #1DB954;
+  border: 2px solid black;
+}

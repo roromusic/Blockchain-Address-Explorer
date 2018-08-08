@@ -21,14 +21,18 @@ https://blockchain-address.glitch.me/
 ### To view on your own environment:
 Because the Blockchain API does not allow CORS, the node server acts as a CORS proxy. 
 
+Please clone the repository and follow the steps below:
+
 To run the server:
 ```
 cd ./server
+npm install
 node server.js
 ```
 
 After running the server, fire up the react app:
 ```
 cd ../client
+npm install
 npm start
 ```
